@@ -162,7 +162,8 @@ def get_weibo_list(v_keyword, v_max_page):
 
 if __name__ == '__main__':
     max_search_page = 10  # 爬前n页
-    search_keywords = ['天安门','东湖风景区','日月潭']
+    search_keywords = ['花溪区','云岩区','南明区']
     for search_keyword in search_keywords:
         get_weibo_list(v_keyword=search_keyword, v_max_page=max_search_page)
+
     print('数据爬取和插入完成')
